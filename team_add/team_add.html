@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Formula1 application"/>
+    <meta name="keywords" content="F1"/>
+    <meta name="author" content="Kamil Paluszewski"/>
+    <title>F1 Teams</title>
+    <link rel="stylesheet" href="../styles.css"/>
+    <script src="../script.js" defer="defer"></script>
+    <script type="module" src="team_add.js" async="async"></script>
+</head>
+<body>
+
+<div class="container">
+    <nav id="nav">
+        <ul>
+            <li><a href="../index.html"> Main Page </a></li>
+            <li class="active"><a href="../teams/teams.html"> Teams </a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h1>Adding new team</h1>
+
+        <p>
+        <form class="team_form" id="teamForm">
+
+            <p for="teamName">Team Name:
+                <span> <input class="ui-control ui-input" id="teamName" name="teamName"/></span></p>
+
+            <p for="nationality">Nationality:
+                <span> <input class="ui-control ui-input" id="nationality" name="nationality"/></span></p>
+
+            <p for="firstEntryYear">First Entry Year:
+                <span> <input class="ui-control ui-input" id="firstEntryYear" name="firstEntryYear"
+                              type="number"/></span></p>
+
+            <p for="worldChampionshipsWon">World Championships Won:
+                <span> <input class="ui-control ui-input" id="worldChampionshipsWon" name="worldChampionshipsWon"
+                              type="number"/></span></p>
+
+            <p for="racesWon">Races Won:
+                <span> <input class="ui-control ui-input" id="racesWon" name="racesWon" type="number"/></span></p>
+
+            <p for="teamChief">Team Chief:
+                <span> <input class="ui-control ui-input" id="teamChief" name="teamChief"/></span></p>
+
+            <p for="chassis">Chassis:
+                <span> <input class="ui-control ui-input" id="chassis" name="chassis"/></span></p>
+
+            </p>
+            <input class="ui-control ui-button" type="submit" name="add"/></br>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

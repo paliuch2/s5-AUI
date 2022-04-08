@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Formula1 application"/>
+    <meta name="keywords" content="F1"/>
+    <meta name="author" content="Kamil Paluszewski"/>
+    <title>F1 Driver</title>
+    <link rel="stylesheet" href="../styles.css"/>
+    <script src="../script.js" defer="defer"></script>
+    <script type="module" src="driver_view.js" async="async"></script>
+</head>
+<body>
+<div class="container">
+    <nav id="nav">
+        <ul>
+            <li><a href="../index.html"> Main Page </a></li>
+            <li class="active"><a href="../teams/teams.html"> Teams </a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h1 id="driverinfo">driverinfo</h1>
+
+        <h2>Details</h2>
+        <div id="dets">
+            <p for="team">Team: </p><span id="team">team </span>
+            <p for="nation">Nationality: </p><span id="nation">nation</span>
+            <p for="dob">Date Of Birth: </p><span id="dob">dob</span>
+            <p for="pob">Place Of Birth: </p><span id="pob">pob</span>
+            <p for="points">Points earned: </p><span id="points">points</span>
+            <p for="wins">Races Won: </p><span id="wins">wins</span>
+            <p for="gps">GPs entered: </p><span id="gps">gps</span>
+        </div>
+
+</body>
+</html>

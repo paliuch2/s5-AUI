@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Formula1 application"/>
+    <meta name="keywords" content="F1"/>
+    <meta name="author" content="Kamil Paluszewski"/>
+    <title>F1 Driver</title>
+    <link rel="stylesheet" href="../styles.css"/>
+    <script src="../script.js" defer="defer"></script>
+    <script type="module" src="driver_add.js" async="async"></script>
+</head>
+<body>
+
+<div class="container">
+    <nav id="nav">
+        <ul>
+            <li><a href="../index.html"> Main Page </a></li>
+            <li class="active"><a href="../teams/teams.html"> Teams </a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h1>Adding new driver to team</h1>
+
+        <p>Team: <span id="teamname">team</span></p>
+
+        <p>
+        <form class="driver_form" id="driverForm">
+
+            <p for="startingNo">Starting number:
+                <span> <input class="ui-control ui-input" id="startingNo" name="startingNo" type="number"/></span></p>
+
+            <p for="name">Drivers' Name:
+                <span> <input class="ui-control ui-input" id="name" name="name"/></span></p>
+
+            <p for="surname">Drivers' Surname:
+                <span> <input class="ui-control ui-input" id="surname" name="surname"/></span></p>
+
+            <p for="nationality">Nationality:
+                <span> <input class="ui-control ui-input" id="nationality" name="nationality"/></span></p>
+
+            <p for="dateOfBirth">Date of Birth:
+                <span> <input class="ui-control ui-input" id="dateOfBirth" name="dateOfBirth" type="date"/></span></p>
+
+            <p for="placeOfBirth">Place of Birth:
+                <span> <input class="ui-control ui-input" id="placeOfBirth" name="placeOfBirth"/></span></p>
+
+            <p for="pointsEarned">Points Earned:
+                <span> <input class="ui-control ui-input" id="pointsEarned" name="pointsEarned" type="number"
+                              step="0.5"/></span></p>
+
+            <p for="racesWon">Races Won:
+                <span> <input class="ui-control ui-input" id="racesWon" name="racesWon" type="number"/></span></p>
+
+            <p for="gpsEntered">GPs entered:
+                <span> <input class="ui-control ui-input" id="gpsEntered" name="gpsEntered" type="number"/></span></p>
+
+            </p>
+            <input class="ui-control ui-button" type="submit" name="add"/></br>
+
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>

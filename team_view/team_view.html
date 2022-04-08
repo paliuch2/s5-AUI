@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Formula1 application"/>
+    <meta name="keywords" content="F1"/>
+    <meta name="author" content="Kamil Paluszewski"/>
+    <title>F1 Teams</title>
+    <link rel="stylesheet" href="../styles.css"/>
+    <script src="../script.js" defer="defer"></script>
+    <script type="module" src="team_view.js" async="async"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <nav id="nav">
+        <ul>
+            <li> <a href="../index.html"> Main Page </a> </li>
+            <li class="active"> <a href="../teams/teams.html"> Teams </a> </li>
+            <!--   <li> <a href="../drivers/drivers.html"> Drivers </a> </li> -->
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h1 id="teamname">teamname</h1>
+
+        <h2>Details</h2>
+        <div id="dets">
+        <p for="nation">Nationality: </p><span id="nation">nation</span>
+        <p for="firstentry">First Entry Year: </p><span id="firstentry">firstentry</span>
+        <p for="wchs">World Championships: </p><span id="wchs">wchs</span>
+        <p for="raceswon">Races Won: </p><span id="raceswon">raceswon</span>
+        <p for="chief">Team Chief: </p><span id="chief">chief</span>
+        <p for="chassis">Chassis: </p><span id="chassis">chassis</span>
+    </div>
+        <table>
+            <thead>
+            <tr>
+                <th>Driver no</th>
+                <th>Driver name</th>
+                <th>Driver surname</th>
+                <th>View</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody id="tbody">
+            <tr>
+                <td>driverno</td>
+                <td>drivername</td>
+                <td>edit</td>
+                <td>
+                    <button class="ui-control ui-button">Delete</button>
+                </td>
+            </tr>
+
+            </tbody>
+
+        </table>
+
+        <button class="ui-control ui-button" id="add">Add</button>
+
+    </div>
+
+    <footer class="footer">
+        <p>&copy; Kamil Paluszewski 2021</p>
+    </footer>
+
+</div>
+</body>
+</html>

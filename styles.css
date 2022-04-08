@@ -1,0 +1,232 @@
+html, body {
+    background-color: #333333;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica
+}
+
+#nav {
+    font-family: Helvetica;
+}
+
+.container {
+    margin: 50px auto;
+    width: 1200px;
+}
+
+
+#content, #accordion
+{
+    background-color: #444444;
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+}
+
+h1
+{
+    margin: 20px;
+    font-size: 25px;
+    color: #03f0fc;
+}
+
+h2
+{
+    color: #fff;
+    margin: 30px;
+}
+
+
+h3
+{
+    font-size: 20px;
+    color: #ec0a0a;
+    margin: 30px;
+}
+
+a
+{
+    color: #00fc80 ;
+    font-weight: bold;
+}
+
+table > tbody > tr >  td > a
+{
+    color: #0000ff;
+}
+
+p
+{
+    color: #03f0fc ;
+    font-weight: bold;
+}
+
+p span
+{
+    color: #ffffff;
+}
+
+table, td
+{
+    margin: 15px;
+    max-width: 90%;
+}
+
+section td
+{
+    border: #222222 solid 15px;
+}
+
+nav .active
+{
+    background-color: #0800ff;
+
+}
+
+nav ul
+{
+    height: 40px;
+
+    text-align: center;
+    background-color: black;
+}
+nav ul li
+{
+    float: left;
+    list-style-type: none;
+    width: 200px;
+    background-color: black;
+
+}
+
+nav ul a
+{
+    display: inline-block;
+}
+nav ul li a
+{
+
+    padding: 5px 25px 5px 25px;
+
+
+}
+
+nav ul li:hover
+{
+    background-color: red;
+}
+
+nav ul li a:link, #nav ul li a:visited
+{
+    color: #03f0fc;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav ul li a:hover
+{
+    color: #ffdd00;
+
+}
+
+nav ul > li > ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+
+
+}
+
+nav ul li ol a:link
+{
+    font-size: 14px;
+}
+
+nav ul > li:hover > ol {
+    display: block;
+
+}
+
+table
+{
+    border:  solid  #0800ff 3px;
+    width: 60%;
+    opacity: 70%;
+}
+
+td
+{
+    border: solid black 1px;
+    background-color: #00ffe5;
+
+}
+
+th
+{
+    background-color: #0800ff;
+    color: white;
+}
+
+.left
+{
+    float: left;
+    margin-right: 10px;
+    max-height: 200px;
+    width: 150px;
+}
+.nat
+{
+    height: 25px;
+    width: 40px;
+}
+
+#zawodnik  th
+{width: 50%}
+
+footer
+{
+    bottom: 0;
+    height: 40px;
+    background-color: #888888;
+    color: #000;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    z-index: 2;
+
+}
+
+#content ul li, #content ol li, #accordion ul li, #accordion ol li
+{
+    color: #fff
+}
+
+
+.flying
+{
+    background-color: #ffdd00;
+    color: #ffdd00;
+}
+
+form
+{color: white;}
+
+
+span{
+    color : #ffffff;
+}
+
+#dets
+{
+    margin-left: 50px;
+}
+
+
+
+
